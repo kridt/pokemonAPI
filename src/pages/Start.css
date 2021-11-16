@@ -1,0 +1,29 @@
+body{
+    background-color: aqua;
+}
+
+.controlButtons{
+    margin: 3em auto;
+    margin-left: 45%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 15%;
+}
+.controlButtons button{
+    width: 100px
+}
+
+#next{
+    grid-area: 1/2/1/2;
+    margin-left: 45%;
+}
+
+
+.pokelist{
+    max-width: 50%;
+    margin: 10em auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10%;
+    grid-row-gap: 20%;
+}
